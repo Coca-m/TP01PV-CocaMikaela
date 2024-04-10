@@ -10,7 +10,7 @@ public class Main {
 		int factorial=1;
 		int repeticiones=1;
 		
-		System.out.println("Ingrese un numero entero del 0 al 10" );
+		System.out.println("Ingrese un numero entero del 0 al 10");
 		int num = scan.nextInt();
 		 if (num>=0 && num<=10) {
 			if (num==0) {
