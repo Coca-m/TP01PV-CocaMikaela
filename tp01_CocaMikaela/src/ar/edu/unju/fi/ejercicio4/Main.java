@@ -8,6 +8,7 @@ public class Main {
 		
 		Scanner scan = new Scanner(System.in);
 		int factorial=1;
+		int repeticiones=1;
 		
 		System.out.println("Ingrese un numero entero del 0 al 10" );
 		int num = scan.nextInt();
@@ -16,10 +17,10 @@ public class Main {
 			factorial = 1;
 			}
 			else
-			{factorial=num;
-				while(num>=2){
-					num--;
-					factorial = factorial*num;
+			{
+				while(repeticiones<=num){
+					factorial = factorial*repeticiones;
+					repeticiones++;
 				}
                    				
 			}
