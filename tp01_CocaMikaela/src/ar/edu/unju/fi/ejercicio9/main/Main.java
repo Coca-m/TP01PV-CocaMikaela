@@ -15,7 +15,7 @@ public class Main {
 		int n = sc.nextInt();
 		for (int i=1; i<=n; i++) {
 			System.out.println("\ningrese el nombre del producto");
-			producto.setNombre(sc.nextLine());
+			producto.setNombre(sc.next());
 			System.out.print("ingrese codigo del producto" );
 			producto.setCodigo(sc.nextInt());
 			System.out.println("ingrese precio del producto");
